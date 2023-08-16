@@ -1,0 +1,56 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background: url('path-to-your-image.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 4rem;
+    color: white;
+  }
+  
+  /* Call to action button styles */
+  .cta-button {
+    background: #333;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #555;
+  }
+  
